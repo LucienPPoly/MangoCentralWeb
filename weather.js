@@ -1,4 +1,4 @@
-const apiUrl = "http://api.weatherapi.com/v1/current.json?key=a96fc1cd005f41b9ad6125026251201&q=Mumbai&aqi=no";
+const apiUrl = "https://api.weatherapi.com/v1/current.json?key=a96fc1cd005f41b9ad6125026251201&q=Mumbai&aqi=no";
 const weatherIcon = document.getElementById('weather-icon');
 const temperature = document.getElementById('temperature-value');
 const locationp = document.getElementById('location');
