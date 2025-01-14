@@ -1,0 +1,123 @@
+@import url('https://fonts.cdnfonts.com/css/publica-play');
+
+:root {
+    --orange: #d75533;
+    --white: #e3e2d0;
+    --light-orange: #e78e30;
+    --green: #028A62;
+    --dark: hsl(162, 100%, 7%);
+  }
+
+* {
+  font-family: 'Publica Play', sans-serif;
+}
+
+body{
+  background-color: var(--white);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+span{
+    font-size: 20px;
+}
+
+header{
+  border: var(--orange) 4px solid;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+
+h1{
+  font-size: 3rem;
+  font-weight: 600;
+  text-decoration: underline;
+  color: var(--orange);
+  text-align: center;
+  width: 100%;
+}
+
+h2{
+  color: var(--orange);
+}
+
+.weather-container{
+  border: var(--orange) 4px solid;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.weather-container>*{
+  margin: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size:large;
+}
+
+.title-background{
+  background-image: url(images/india-background-dual-tone-brighter.png);
+  background-size:cover;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link{
+  color: var(--orange);
+  font-size:x-large;
+}
+.nav-link:hover{
+  color: var(--green);
+}
+.nav-link:focus{
+  color: var(--orange);
+}
+
+.carousel{
+  max-width: 800px;
+}
+
+.form-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container>*{
+  width: 50%;
+}
+
+#submitBtn{
+  background-color: none;
+  color: var(--orange);
+  border: 3px solid var(--orange);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: large;
+}
+
+#submitBtn:hover{
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+@media screen and (min-width: 1200px) {
+  .container#main{
+    max-width: 1000px;
+  }
+  
+}
+
+footer>img{
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
