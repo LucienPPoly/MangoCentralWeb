@@ -1,6 +1,4 @@
 # Mango Central Website
-Lucien Poissonnier
-
 
 ## Purspose
 This website is a frontpage of the imaginary company Mango Central. It is thought to be the main way to communicate to clients
